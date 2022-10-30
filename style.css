@@ -1,0 +1,90 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  text-align: center;
+  padding-block: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-content {
+  text-align: center;
+  padding-inline: 40px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.card-link {
+  background: rgb(5, 80, 255);
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  margin: 30px 0;
+}
+.card-link:hover {
+  background: rgb(5, 80, 255);
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  margin: 30px 0;
+}
+.slider {
+  margin-top: 55px;
+}
+.project-card {
+  margin: 10px 0;
+}
+.modal-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.modal-body {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+.close-button {
+  background: rgb(5, 80, 255);
+  padding: 10px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+.close-button:hover {
+  background: #000;
+  color: white;
+}
+.button {
+  background: rgb(5, 80, 255);
+  padding: 10px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .fff {
+    margin-inline: 10px;
+  }
+}
+.contact {
+  background: rgb(218, 216, 216);
+  border-radius: 40px;
+  margin: 20px;
+  padding: 40px 0;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+  margin-top: 10px;
+}
+.copyright {
+  display: flex;
+  padding-block: 15px;
+  justify-content: center;
+}
